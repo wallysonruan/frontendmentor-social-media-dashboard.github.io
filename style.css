@@ -181,7 +181,7 @@ body{
     color: var(---card-blue-text-dt);
 }
   .card--light{
-    
+    background-color: var(---card-bg-lt);
   }
     section:first-child .card{ /*Without this the cards border-top doesnt meet the element created to act as its colorfull border-top*/
         border-radius: 0 0 10px 10px;
