@@ -333,4 +333,7 @@ body{
         .card__indicator-statistic{
             font-size: 0.8rem;
         }
+        .card-secondary__number{
+            font-size: 3rem;
+        }
 }
