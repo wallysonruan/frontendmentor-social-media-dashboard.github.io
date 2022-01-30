@@ -4,7 +4,9 @@ const toggler = document.getElementById("theme-change");
 const body = document.getElementsByTagName("body")[0],
     firstTitle = document.getElementById("first-title");
     secondTitle = document.getElementById("second-title"),
-    cards = document.querySelectorAll(".card");
+    cards = document.querySelectorAll(".card"),
+    firstSectionNumbers = document.getElementsByClassName("followers__number"),
+    secondSectionNumbers = document.getElementsByClassName("card-secondary__number");
 
 
 toggler.addEventListener("input", function(){
@@ -16,6 +18,15 @@ toggler.addEventListener("input", function(){
         for(let i = 0; i < cards.length; i++){
             cards[i].classList.add("card--light");
         }
+
+        
+        for(let i = 0; i < firstSectionNumbers.length; i++){
+            firstSectionNumbers[i].classList.add("followers__number--light");
+        }
+
+        for(let i = 0; i < secondSectionNumbers.length; i++){
+            secondSectionNumbers[i].classList.add("card-secondary__number--light");
+        }
     }
     else{
         body.classList.remove("body-light");
@@ -24,6 +35,10 @@ toggler.addEventListener("input", function(){
 
         for(let i = 0; i < cards.length; i++){
             cards[i].classList.remove("card--light");
+        }
+
+        for(let i = 0; i < firstSectionNumbers.length; i++){
+            firstSectionNumbers[i].classList.remove("followers__number--light");
         }
     }
 })
