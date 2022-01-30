@@ -330,14 +330,7 @@ body{
         width: 24%;
         padding: 10px;
     }
-        .card-secondary{
-            wi
-            height: 50%;
-        }
         .card__indicator-statistic{
             font-size: 0.8rem;
-        }
-        .card-secondary__number{
-            font-size: 1rem;
         }
 }
