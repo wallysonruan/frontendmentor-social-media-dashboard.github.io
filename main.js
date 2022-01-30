@@ -18,7 +18,6 @@ toggler.addEventListener("input", function(){
         for(let i = 0; i < cards.length; i++){
             cards[i].classList.add("card--light");
         }
-
         
         for(let i = 0; i < firstSectionNumbers.length; i++){
             firstSectionNumbers[i].classList.add("followers__number--light");
@@ -39,6 +38,10 @@ toggler.addEventListener("input", function(){
 
         for(let i = 0; i < firstSectionNumbers.length; i++){
             firstSectionNumbers[i].classList.remove("followers__number--light");
+        }
+
+        for(let i = 0; i < secondSectionNumbers.length; i++){
+            secondSectionNumbers[i].classList.remove("card-secondary__number--light");
         }
     }
 })
