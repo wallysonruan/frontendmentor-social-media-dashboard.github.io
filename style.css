@@ -212,7 +212,7 @@ body{
         .card__indicator-statistic--positive::before{
             position: absolute;
             top: 0.3ch;
-            left: -1.5ch;
+            left: -1.3ch;
             display: block;
             content: '';
             width: 0.5rem;
@@ -229,7 +229,7 @@ body{
         .card__indicator-statistic--negative::before{
             position: absolute;
             bottom: 0.3ch;
-            left: -1.5ch;
+            left: -1.3ch;
             display: block;
             content: '';
             width: 0.5rem;
@@ -323,21 +323,25 @@ body{
         width: 95%;
     }
     .cards-container{
+        height: 10%;
         flex-direction: row;
         flex-wrap: wrap;
     }
     .card{
         width: 24%;
+        height: 13rem;
         padding: 10px;
     }
-        .card-secondary{
-            wi
-            height: 50%;
+      .card-secondary{
+        height: 7rem;
+      }
+        .followers__number{
+          font-size: 3rem;
         }
-        .card__indicator-statistic{
-            font-size: 0.8rem;
+        .followers__title{
+          font-size: 0.7rem;
         }
         .card-secondary__number{
-            font-size: 1rem;
+            font-size: 1.5rem;
         }
 }
