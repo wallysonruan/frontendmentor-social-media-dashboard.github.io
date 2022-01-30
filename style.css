@@ -57,9 +57,8 @@
 }
 body{
   background-color: var(---background-dt);
-  width: 100vw;
-  min-width: 100vw;
   height: 100vh;
+  max-height: 100vh;
   /**/
   display: flex;
   flex-direction: column;
@@ -69,11 +68,12 @@ body{
   font-family: 'Inter', sans-serif;
 }
 .main-container{
-  width: 85%;
-  height: 90%;
+  width: 80%;
+  height: 80%;
 }
 .container{
   width: 100%;
+  height: 100%;
   margin-top: 2rem;
   margin-bottom: 2rem;
   /**/
@@ -87,7 +87,7 @@ body{
     .section:last-child{
         margin-top: 2rem;
     }
-  .section__title{
+  .title{
     color: var(---card-white-text-dt);
   }
   .title__sub{
@@ -322,6 +322,18 @@ body{
     .main-container{
         width: 95%;
     }
+    .section:first-child header{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      border-bottom: none;
+    }
+
+    .theme-toggler-container{
+      width: max-content;
+      justify-content: center;
+      gap: 10px;
+    }
     .cards-container{
         flex-direction: row;
         flex-wrap: wrap;
@@ -336,4 +348,7 @@ body{
         .card-secondary__number{
             font-size: 3rem;
         }
+    .card-secondary{
+      height: 40%;
+    }
 }
