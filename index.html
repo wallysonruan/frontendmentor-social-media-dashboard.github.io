@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Frontend Mentor | Social Media Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="container">
+
+      <section class="section">
+        <header>
+          <h1 class="section__title">
+            Social Media Dashboard
+          </h1>
+          <p class="title__sub">
+            Total Followers: <span id="total-followers">23,004</span>
+          </p>
+        </header>
+        
+        <div class="theme-toggler-container">
+          <p id="toggler-title">
+            Dark Mode
+          </p>
+
+          <input type="checkbox" id="theme-change">
+          <label for="theme-change" id="toggler-container">
+          </label>
+        </div> <!--Theme Toggler-->
+      <!---->
+        <div class="cards-container">
+          <div class="card">
+            <div class="card__top-border facebook__border">
+              <!--CSS POWERED-->
+            </div>
+            <!---->
+            <div class="card__line card-primary__line-first">
+              <div class="social-media-logo facebook__logo"></div>
+              <div class="card-primary__user-name">
+                @nathanf
+              </div>
+            </div>
+            <!---->
+            <div class="card__line card-primary__line-second">
+              <p class="followers__number">1987</p>
+              <p class="followers__title">F O L L O W E R S</p>
+            </div>
+            <!---->
+            <div class="card__line card-primary__line-third">
+              <p class="card__indicator-statistic card__indicator-statistic--positive">12 Today</p>
+            </div>
+          </div> <!--Facebook-->
+
+          <div class="card">
+            <div class="card__top-border twitter__border">
+              <!--CSS POWERED-->
+            </div>
+            <!---->
+            <div class="card__line card-primary__line-first">
+              <div class="social-media-logo twitter__logo"></div>
+              <div class="card-primary__user-name">
+                @nathanf
+              </div>
+            </div>
+            <!---->
+            <div class="card__line card-primary__line-second">
+              <p class="followers__number">1044</p>
+              <p class="followers__title">F O L L O W E R S</p>
+            </div>
+            <!---->
+            <div class="card__line card-primary__line-third">
+              <p class="card__indicator-statistic card__indicator-statistic--positive">99 Today</p>
+            </div>
+          </div> <!--Twitter-->
+
+          <div class="card">
+            <div class="card__top-border instagram__border">
+              <!--CSS POWERED-->
+            </div>
+            <!---->
+            <div class="card__line card-primary__line-first">
+              <div class="social-media-logo instagram__logo"></div>
+              <div class="card-primary__user-name">
+                @realnathanf
+              </div>
+            </div>
+            <!---->
+            <div class="card__line card-primary__line-second">
+              <p class="followers__number">1k</p>
+              <p class="followers__title">F O L L O W E R S</p>
+            </div>
+            <!---->
+            <div class="card__line card-primary__line-third">
+              <p class="card__indicator-statistic card__indicator-statistic--positive">1099 Today</p>
+            </div>
+          </div> <!--Instagram-->
+
+          <div class="card">
+            <div class="card__top-border youtube__border">
+              <!--CSS POWERED-->
+            </div>
+            <!---->
+            <div class="card__line card-primary__line-first">
+              <div class="social-media-logo youtube__logo"></div>
+              <div class="card-primary__user-name">
+                Nathan F.
+              </div>
+            </div>
+            <!---->
+            <div class="card__line card-primary__line-second">
+              <p class="followers__number">8239</p>
+              <p class="followers__title">S U B S C R I B E R S</p>
+            </div>
+            <!---->
+            <div class="card__line card-primary__line-third">
+              <p class="card__indicator-statistic card__indicator-statistic--negative">144 Today</p>
+            </div>
+          </div> <!--Youtube-->
+
+        </div> <!--First card container-->
+      </section>
+      <!---->
+      <section class="section">
+        <header>
+          <h1 class="section__title">
+            Overview - Today
+          </h1>
+        </header>
+
+        <div class="cards-container">
+          <div class="card card-secondary">
+            <!---->
+            <div class="card__line card-secondary__line-first">
+              <p>Page Views</p>
+              <div class="social-media-logo facebook__logo">
+                <!--CSS POWERED-->
+              </div>
+            </div>
+            <!---->
+            <div class="card__line card-secondary__line-second">
+              <p class="card-secondary__number">
+                87
+              </p>
+              <p class="card_indicator-statistic card__indicator-statistic--positive">
+                3%
+              </p>
+            </div>
+          </div> <!--Facebook page views-->
+
+          <div class="card card-secondary">
+            <!---->
+            <div class="card__line card-secondary__line-first">
+              <p>Likes</p>
+              <div class="social-media-logo facebook__logo">
+                <!--CSS POWERED-->
+              </div>
+            </div>
+            <!---->
+            <div class="card__line card-secondary__line-second">
+              <p class="card-secondary__number">
+                52
+              </p>
+              <p class="card_indicator-statistic card__indicator-statistic--negative">
+                2%
+              </p>
+            </div>
+          </div> <!--Facebook likes-->
+
+          <div class="card card-secondary">
+            <!---->
+            <div class="card__line card-secondary__line-first">
+              <p>Likes</p>
+              <div class="social-media-logo instagram__logo">
+                <!--CSS POWERED-->
+              </div>
+            </div>
+            <!---->
+            <div class="card__line card-secondary__line-second">
+              <p class="card-secondary__number">
+                5462
+              </p>
+              <p class="card_indicator-statistic card__indicator-statistic--positive">
+                2257%
+              </p>
+            </div>
+          </div> <!--Instagram likes-->
+
+          <div class="card card-secondary">
+            <!---->
+            <div class="card__line card-secondary__line-first">
+              <p>Profile Views</p>
+              <div class="social-media-logo instagram__logo">
+                <!--CSS POWERED-->
+              </div>
+            </div>
+            <!---->
+            <div class="card__line card-secondary__line-second">
+              <p class="card-secondary__number">
+                52k
+              </p>
+              <p class="card_indicator-statistic card__indicator-statistic--positive">
+                1375%
+              </p>
+            </div>
+          </div> <!--Instagram Profile Views-->
+
+          <div class="card card-secondary">
+            <!---->
+            <div class="card__line card-secondary__line-first">
+              <p>Retweets</p>
+              <div class="social-media-logo twitter__logo">
+                <!--CSS POWERED-->
+              </div>
+            </div>
+            <!---->
+            <div class="card__line card-secondary__line-second">
+              <p class="card-secondary__number">
+                117
+              </p>
+              <p class="card_indicator-statistic card__indicator-statistic--positive">
+                303%
+              </p>
+            </div>
+          </div> <!--Twitter Retweets-->
+
+          <div class="card card-secondary">
+            <!---->
+            <div class="card__line card-secondary__line-first">
+              <p>Likes</p>
+              <div class="social-media-logo twitter__logo">
+                <!--CSS POWERED-->
+              </div>
+            </div>
+            <!---->
+            <div class="card__line card-secondary__line-second">
+              <p class="card-secondary__number">
+                507
+              </p>
+              <p class="card_indicator-statistic card__indicator-statistic--positive">
+                553%
+              </p>
+            </div>
+          </div> <!--Twitter Likes-->
+
+          <div class="card card-secondary">
+            <!---->
+            <div class="card__line card-secondary__line-first">
+              <p>Likes</p>
+              <div class="social-media-logo youtube__logo">
+                <!--CSS POWERED-->
+              </div>
+            </div>
+            <!---->
+            <div class="card__line card-secondary__line-second">
+              <p class="card-secondary__number">
+                107
+              </p>
+              <p class="card_indicator-statistic card__indicator-statistic--negative">
+                19%
+              </p>
+            </div>
+          </div> <!--Youtube Likes-->
+
+          <div class="card card-secondary">
+            <!---->
+            <div class="card__line card-secondary__line-first">
+              <p>Total Views</p>
+              <div class="social-media-logo youtube__logo">
+                <!--CSS POWERED-->
+              </div>
+            </div>
+            <!---->
+            <div class="card__line card-secondary__line-second">
+              <p class="card-secondary__number">
+                1407
+              </p>
+              <p class="card_indicator-statistic card__indicator-statistic--negative">
+                12%
+              </p>
+            </div>
+          </div> <!--Youtube Views-->
+        </div> <!--Second card container-->
+      </section>
+    </div>
+  </div>
+</body>
+</html>
