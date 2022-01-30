@@ -342,13 +342,22 @@ body{
         width: 24%;
         padding: 10px;
     }
+        .card-secondary{
+            wi
+            height: 50%;
+        }
         .card__indicator-statistic{
             font-size: 0.8rem;
         }
         .card-secondary__number{
+<<<<<<< HEAD
             font-size: 3rem;
         }
     .card-secondary{
       height: 40%;
     }
+=======
+            font-size: 1rem;
+        }
+>>>>>>> parent of b674c9c (testing a font size)
 }
