@@ -68,6 +68,9 @@ body{
   /**/
   font-family: 'Inter', sans-serif;
 }
+  .body-light{
+    background-color: var(---background-lt);
+  }
 .main-container{
   width: 85%;
   height: 90%;
@@ -90,6 +93,12 @@ body{
   .section__title{
     color: var(---card-white-text-dt);
   }
+    .first-title--light{
+      color: var(--card-white-text-lt);
+    }
+    .second-title--light{
+      color: var(---card-blue-text-lt);
+    }
   .title__sub{
     margin-top: 0.5rem;
     font-size: smaller;
@@ -141,7 +150,9 @@ body{
         #theme-change:checked ~ #toggler-container::after{
             left: 4ch;
             right: 0.3ch;
+            background-color: white;
         }
+
 .cards-container{
   width: 100%;
   height: 100%;
@@ -169,6 +180,9 @@ body{
     /**/
     color: var(---card-blue-text-dt);
 }
+  .card--light{
+    
+  }
     section:first-child .card{ /*Without this the cards border-top doesnt meet the element created to act as its colorfull border-top*/
         border-radius: 0 0 10px 10px;
     }
