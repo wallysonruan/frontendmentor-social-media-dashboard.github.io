@@ -73,7 +73,7 @@ body{
   }
 .main-container{
   width: 85%;
-  height: 90%;
+  height: 100%;
 }
 .container{
   width: 100%;
@@ -391,5 +391,6 @@ body{
 @media screen and (min-width: 1200px){
   .main-container{
     width: 75%;
+    height: auto;
   }
 }
